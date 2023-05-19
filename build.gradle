@@ -28,7 +28,7 @@ task task1 {
 task task2 {
     dependsOn task1
     doLast {
-        println 'Task 2 executed!'
+        println 'Task 2 executed! Good !'
     }
 }
 
